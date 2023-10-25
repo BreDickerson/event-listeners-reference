@@ -6,3 +6,13 @@ body{
     color: red;
 
 }
+
+#👻{
+    font-size: 5rem;
+    text-align: center;
+    transition: transform 2s;
+
+}
+#👻.flipped {
+    transform:rotate(3.142rad);
+}
