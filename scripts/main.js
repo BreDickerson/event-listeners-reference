@@ -52,3 +52,5 @@ function addressResult(event) {
     let addressResult = document.getElementById("addressResult")
     addressResult.innerHTML = `<h4>Address:<span class="display-result-red"> ${city} , ${state}, ${country}</span></h4>`
 }
+
+function substringUpTo (orignialString,characterToFind)
